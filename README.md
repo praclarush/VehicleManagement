@@ -2,10 +2,10 @@
 Vehicle Management System
 
 Goals
-+ Track Fuel Consumption (Milage)
++ Track Fuel Consumption (Mileage)
 	- Fuel Stops
 	- Fuel Costs
-	- Current Milage
+	- Current Mileage
 + Track Maintaince Schedule
 	- Oil Change
 	- Tire Rotation
