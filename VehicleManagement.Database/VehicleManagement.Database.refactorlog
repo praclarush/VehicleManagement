@@ -14,4 +14,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_VehicleImage_Vehicle]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="df6f2b02-6cc1-4da5-9a7d-ab0a0d82c975" ChangeDateTime="07/11/2021 15:27:35">
+    <Property Name="ElementName" Value="[dbo].[Fuel].[NumberOfGallons]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fuel]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Gallons" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="80c19296-3f86-414f-bc32-42022562e142" ChangeDateTime="07/11/2021 15:33:00">
+    <Property Name="ElementName" Value="[dbo].[MaintenanceType].[IsDeleteable]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaintenanceType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsDeletable " />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4e1c60aa-052e-41be-bfc2-8a6a0e59695b" ChangeDateTime="07/11/2021 15:37:41">
+    <Property Name="ElementName" Value="[dbo].[Maintenance].[Is]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Maintenance]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsRecurring" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="de66ef4f-2fe7-47f4-a81a-fb203c7fde1f" ChangeDateTime="07/11/2021 15:59:04">
+    <Property Name="ElementName" Value="[dbo].[Vehicle].[IX_Vehicle_UserID]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[Vehicle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_Vehicle_UserId]" />
+  </Operation>
 </Operations>
