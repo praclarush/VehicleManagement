@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5c87226c-2580-49a5-a2cf-3272c3482323" ChangeDateTime="07/11/2021 01:31:01">
+    <Property Name="ElementName" Value="[dbo].[Vehicle].[FriendlyNam]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vehicle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FriendlyName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="11a49835-894d-41e4-b361-1c11da7346ef" ChangeDateTime="07/11/2021 01:36:10">
+    <Property Name="ElementName" Value="[dbo].[FK_VehicleImage_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleImage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_VehicleImage_Vehicle]" />
+  </Operation>
+</Operations>

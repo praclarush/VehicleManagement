@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement", "VehicleManagement.csproj", "{2524791F-AFEE-4C91-8644-B49AFE1E7031}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VehicleManagement.Database", "..\VehicleManagement.Database\VehicleManagement.Database.sqlproj", "{629110B3-8E61-4E7B-86F6-E252B8F0B408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{2524791F-AFEE-4C91-8644-B49AFE1E7031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2524791F-AFEE-4C91-8644-B49AFE1E7031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2524791F-AFEE-4C91-8644-B49AFE1E7031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629110B3-8E61-4E7B-86F6-E252B8F0B408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629110B3-8E61-4E7B-86F6-E252B8F0B408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629110B3-8E61-4E7B-86F6-E252B8F0B408}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{629110B3-8E61-4E7B-86F6-E252B8F0B408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629110B3-8E61-4E7B-86F6-E252B8F0B408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629110B3-8E61-4E7B-86F6-E252B8F0B408}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
