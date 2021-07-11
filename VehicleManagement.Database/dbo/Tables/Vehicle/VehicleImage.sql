@@ -7,5 +7,3 @@
 )
 
 GO
-
-CREATE INDEX [IX_VehicleImage_VehicleId] ON [dbo].[VehicleImage] ([VehicleId])
