@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-VehicleManagement-5DF94540-648B-494A-BD38-B345BBF7AF87</UserSecretsId>
+    <UserSecretsId>aspnet-VehicleManagement-3E8CBB4C-DBC8-4CC8-8F73-EB55F90BBC2A</UserSecretsId>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 
